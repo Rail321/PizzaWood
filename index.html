@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang='RU'>
+<head>
+	<title>Template</title>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="header__header">
+				<div class="header__logo">
+					<img src="img/icon.svg" alt="PIZZAWOOD">
+				</div>
+				<div class="header__consultation consultation">
+					<a href="callto:88000000000">8 800 000 00 00</a>
+					<p>Бесплатная консультация</p>
+				</div>
+			</div>
+			<div class="header__main">
+				<h1 class="title header__title">Франшиза PIZZAWOOD — это больше чем пицца</h1>
+				<p class="header__text">Начните зарабатывать 439 000 ₽ рублей в месяц с каждой точки</p>
+			</div>
+			<div class="header__advantadges">
+				<a href="#" class="button button-first header__button">Получить расчёт и план</a>
+				<ul class="header__list">
+					<li class="button button-second">Срок открытия: 2 месяца </li>
+					<li class="button button-second">Собственных точек: 18 </li>
+					<li class="button button-second">Франчайзинговых точек: 6</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="request">
+		<div class="container">
+			<div class="request__header">
+				<h2 class="request__title title">Сделайте бизнес на пицце<br> — одном из самых популярных стритфуд направлений в России</h2>
+				<p class="request__text">Интерес жителей России к пицце. Средние данные Яндекс за месяц ↓</p>
+			</div>
+			<div class="request__form">
+				<ul class="request__list">
+					<li>
+						<div class="request__string request__string-active">Пиццерия</div>
+						<div class="request__views">360 тысяч запросов</div>
+					</li>
+					<li>
+						<div class="request__string">Пицца доставка</div>
+						<div class="request__views">620 тысяч запросов</div>
+					</li>
+					<li>
+						<div class="request__string">Заказать пиццу</div>
+						<div class="request__views">360 тысяч запросов</div>
+					</li>
+					<li>
+						<div class="request__string">Купить кофе</div>
+						<div class="request__views">150 тысяч запросов</div>
+					</li>
+					<li>
+						<div class="request__string">Выпить кофе</div>
+						<div class="request__views">100 тысяч запросов</div>
+					</li>
+				</ul>
+				<a href="" class="button button-first request__button">Получить анализ</a>
+			</div>
+		</div>
+	</div>
+	<div class="calculator">
+		<div class="container">
+			<h2 class="title calculator__title">Получите расчёт прибыли для вашего города</h2>
+			<form action="#" class="calculator__form">
+				<div class="calculator__numbers">
+					<div class="calculator__left">
+						<div class="calculator__subtitle">Выручка:</div>
+						<ul class="calculator__list">
+							<li>
+								<div class="calculator__label">Среднее количество чеков в месяц</div>
+								<input required type="text" class="calculator__input" value="4000">
+							</li>
+							<li>
+								<div class="calculator__label">Средняя ежемесячная выручка</div>
+								<input required type="text" class="calculator__input calculator__input-rubl" value="1400600">
+							</li>
+						</ul>
+						<div class="calculator__subtitle">Расходы:</div>
+						<ul class="calculator__list">
+							<li>
+								<div class="calculator__label">Средняя стоимость аренды </div>
+								<input required type="text" class="calculator__input calculator__input-rubl" value="400000">
+							</li>
+							<li>
+								<div class="calculator__label">Средняя зарплата сотрудников</div>
+								<input required type="text" class="calculator__input calculator__input-rubl" value="45000">
+							</li>
+							<li>
+								<div class="calculator__label">Закупка сырья</div>
+								<input required type="text" class="calculator__input calculator__input-rubl" value="1400600">
+							</li>
+							<li>
+								<div class="calculator__label">Прочие расходы</div>
+								<input required type="text" class="calculator__input calculator__input-rubl" value="1400600">
+							</li>
+						</ul>
+					</div>
+					<div class="calculator__right">
+						<div class="calculator__top">
+							<div class="calculator__subtitle calculator__subtitle-radio">Формат:</div>
+							<div class="calculator__checks">
+								<label class="calculator__radio">
+									<input type="radio" name="type">
+									<span class="calculator__select">Фудкорт</span>
+								</label>
+								<label class="calculator__radio">
+									<input type="radio" name="type">
+									<span class="calculator__select">Семейное кафе</span>
+								</label>
+							</div>
+						</div>
+						<ul class="calculator__list">
+							<li>
+								<div class="calculator__label">Средний чек</div>
+								<input readonly id="range1text" type="text" class="calculator__input calculator__input-rubl" value="600">
+								<div class="calculator__bottom">
+									<input id="range1" class="calculator__range" type="range" min="0" max="1800" step="1" value="600">
+								</div>
+							</li>
+							<li>
+								<div class="calculator__label">Сколько месяцев вы работаете по франшизе</div>
+								<input readonly id="range2text" type="text" class="calculator__input calculator__input-month" value="12">
+								<div class="calculator__bottom">
+									<input id="range2" class="calculator__range" type="range" min="0" max="36" step="1" value="12">
+								</div>
+							</li>
+						</ul>
+						<div class="calculator__prognoz">
+							<div class="calculator__buy">За это время в вашем кафе купят:</div>
+							<ul class="calculator__categories">
+								<li>Пиццы — 1 992 штуки </li>
+								<li>Салатов — 96 штук</li>
+								<li>Кофе — 802 стакана</li>
+								<li>Десертов — 64 штуки</li>
+								<li>Вторых блюд — 321 штук</li>
+							</ul>
+							<div class="calculator__result">Ваша чистая прибыль составит: 535 604 ₽</div>
+						</div>
+					</div>
+				</div>
+				<div class="calculator__send">
+					<div class="calculator__subtitle calculator__get">Получите бизнес-план для выхода на прибыль 535 604 ₽</div>
+					<div class="calculator__buttons">
+						<input required type="text" class="calculator__textarea" placeholder="Ваше имя" pattern="^[а-яА-ЯёЁa-zA-Z]+$">
+						<input required type="tel" class="calculator__textarea" placeholder="Ваш телефон" pattern="^[0-9\s\+\-\(\)]{6,24}">
+						<input required type="email" class="calculator__textarea" placeholder="Ваш e-mail">
+						<button type="submit" class="button button-first calculator__button">Получить бизнес-план</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="history">
+		<div class="container">
+			<h2 class="title history__title">Получите модель пиццерии, которая показала стремительный рост и полюбилась тысячам гостей!</h2>
+			<div class="history__content">
+				<div class="history__text">
+					<p>История бренда PIZZAWOOD началась с рекорда. Мы открыли первую пиццерию в 2018 году и в первый же день сделали выручку в 280 000 рублей! При этом в пиццерии работали всего 5 человек, а площадь помещения была всего 30 м²</p>
+					<p>Этот стало отправной точкой — мы поняли, что наш продукт конкурентоспособен. Что намного важней — мы увидели, что наша пицца пользуется дикой популярностью.</p>
+					<p>Открываясь в новом городе, пиццерии PIZZAWOOD становятся точками притяжения. Готовьтесь, к вам будут заходить много гостей: местные жители, туристы, гурманы, студенты</p>
+					<p>За что любят PIZZAWOOD? Клиенты говорят, что за сервис, за постоянные новинки в меню, за крутую доставку, которую не могут повторить даже крупнейшие сети. Это всё правда, но на самом деле в основе успеха — отлаженные бизнес-процессы. Благодаря им в пиццериях отличное обслуживание, новинки из-за рубежа и быстрая доставка.</p>
+					<p>Мы предлагаем вам использовать бизнес-процессы PIZZAWOOD, чтобы открыть собственную пиццерию. Создайте новую кулинарную точку притяжении на карте своего города. Зарабатывайте вместе с нами, развивайтесь вместе с нами, достигайте новых вершин вместе с нами. Будем рады стать партнёрами!</p>
+				</div>
+				<div class="history__image">
+					<img src="img/photo.png" alt="Артём Буторин">
+					<div class="history__caption">
+						<div class="history__name">Артём Буторин</div>
+						<div class="history__who">Основатель<br> и ген. директор PIZZAWOOD</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="invitation">
+		<div class="container">
+			<h2 class="title invitation__title">Станьте частью сети PIZZAWOOD:<br> мы уже есть в 9 городах!</h2>
+			<ul class="invitation__items">
+				<li>
+					<div class="invitation__number title">24</div>
+					<p class="invitation__paragrath">пиццерии уже открыто</p>
+				</li>
+				<li>
+					<div class="invitation__number title">6</div>
+					<p class="invitation__paragrath">работают по франшизе</p>
+				</li>
+				<li>
+					<div class="invitation__number title">1 400 000 ₽</div>
+					<p class="invitation__paragrath">cредняя ежемесячная выручка одной пиццерии </p>
+				</li>
+				<li>
+					<div class="invitation__number title">от 350 ₽</div>
+					<p class="invitation__paragrath">cредний чек на 1 заказ</p>
+				</li>
+				<li>
+					<div class="invitation__number title">4 000</div>
+					<p class="invitation__paragrath">cреднее количество клиентов для одной пиццерии за месяц</p>
+				</li>
+				<li>
+					<a href="#" class="button button-first invitation__button">Стать частью команды</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="slider">
+		<div class="container">
+			<h2 class="slider__title title">Поможем открыть успешную пиццерию в любом регионе России</h2>
+			<div class="slider__slider">
+				<div class="slider__left"></div>
+				<div class="slider__right"></div>
+				<div class="slider__window">
+					<div class="slider__track">
+						<div class="slider__item">
+							<img src="img/slide.jpg" alt="Слайд">
+						</div>
+						<div class="slider__item slider__item-active">
+							<img src="img/slide.jpg" alt="Слайд">
+						</div>
+						<div class="slider__item">
+							<img src="img/slide.jpg" alt="Слайд">
+						</div>
+						<div class="slider__item">
+							<img src="img/slide.jpg" alt="Слайд">
+						</div>
+						<div class="slider__item">
+							<img src="img/slide.jpg" alt="Слайд">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="advantadge">
+		<div class="container">
+			<h2 class="advantadge__title title">Франчайзи PIZZAWOOD выходят на плановые показатели быстрее, чем за 6 месяцев</h2>
+			<ul class="advantadge__list">
+				<li><span>Москва</span></li>
+				<li><span>Сочи</span></li>
+				<li><span>Апрелевка</span></li>
+				<li><span>Обнинск</span></li>
+				<li><span>Апрелевка</span></li>
+				<li><span>Обнинск</span></li>
+			</ul>
+			<a href="#" class="advantadge__button button button-first">Стать частью команды</a>
+			<h2 class="advantadge__title2 title">Получите план выхода<br> на прибыль 439 000 ₽/месяц для вашего города</h2>
+			<form action="#" class="plan advantadge__form">
+				<h3 class="plan__title">Оставьте заявку<br> и получите Бизнес-план</h3>
+				<input required type="text" class="plan__input" placeholder="Ваше имя" pattern="^[а-яА-ЯёЁa-zA-Z]+$">
+				<input required type="text" class="plan__input" placeholder="Ваш телефон" pattern="^[0-9\s\+\-\(\)]{6,24}">
+				<input required type="text" class="plan__input" placeholder="Ваш e-mail">
+				<button class="button button-first plan__button">Получить бизнес-план</button>
+				<p class="plan__text">Нажимая на кнопку «Получить», я даю согласие<br> на обработку персональных данных и соглашаюсь с <a href="#" class="plan__confidence">политикой конфиденциальности</a></p>
+			</form>
+		</div>
+	</div>
+	<div class="format">
+		<div class="container">
+			<h2 class="format__title title">Подберём для вас подходящий формат заведения</h2>
+			<ul class="format__list">
+				<li class="format__item">
+					<div class="format__view">
+						<div class="format__image">
+							<img src="img/item.jpg" alt="Семейное кафе">
+						</div>
+						<div class="format__text">
+							<div class="format__subtitle">Семейное кафе</div>
+							<p class="format__paragraph">Пиццерия в отдельно стоящем помещении или на первом этаже жилого дома.</p>
+							<p class="format__paragraph">Получайте больше гостей благодаря удачному расположению и нашему яркому фирменному стилю.</p>
+						</div>
+					</div>
+					<div class="format__content">
+						<div class="format__indicators">Ключевые показатели:</div>
+						<ul class="format__parametrs">
+							<li>
+								<div class="format__key">Площадь помещения: </div>
+								<div class="format__value">от 40 кв.м.</div>
+							</li>
+							<li>
+								<div class="format__key">Паушальный взнос:</div>
+								<div class="format__value">от 290 000 ₽</div>
+							</li>
+							<li>
+								<div class="format__key">Средняя выручка:</div>
+								<div class="format__value">1 640 000 ₽</div>
+							</li>
+							<li>
+								<div class="format__key">Прибыль:</div>
+								<div class="format__value">535 500 ₽</div>
+							</li>
+							<li>
+								<div class="format__key">Инвестиции:</div>
+								<div class="format__value">6,6 млн ₽</div>
+							</li>
+							<li>
+								<div class="format__key">Окупаемость:</div>
+								<div class="format__value">15 месяцев</div>
+							</li>
+						</ul>
+						<a href="" class="button button-first format__button">Получить бизнес-план</a>
+					</div>
+				</li>
+				<li class="format__item">
+					<div class="format__view">
+						<div class="format__image">
+							<img src="img/item.jpg" alt="Фудкорт">
+						</div>
+						<div class="format__text">
+							<div class="format__subtitle">Фудкорт</div>
+							<p class="format__paragraph">Островок в ТЦ. Сэкономьте на открытии: нужен только прилавок и технологическая зона.</p>
+							<p class="format__paragraph">Работаете с уже теплыми гостями, которые пришли на фуд-корт подкрепиться.</p>
+						</div>
+					</div>
+					<div class="format__content">
+						<div class="format__indicators">Ключевые показатели:</div>
+						<ul class="format__parametrs">
+							<li>
+								<div class="format__key">Площадь помещения: </div>
+								<div class="format__value">от 80 кв.м.</div>
+							</li>
+							<li>
+								<div class="format__key">Паушальный взнос:</div>
+								<div class="format__value">от 230 000 ₽</div>
+							</li>
+							<li>
+								<div class="format__key">Средняя выручка:</div>
+								<div class="format__value">1 350 000 ₽</div>
+							</li>
+							<li>
+								<div class="format__key">Прибыль:</div>
+								<div class="format__value">439 500 ₽</div>
+							</li>
+							<li>
+								<div class="format__key">Инвестиции:</div>
+								<div class="format__value">4,6 млн ₽</div>
+							</li>
+							<li>
+								<div class="format__key">Окупаемость:</div>
+								<div class="format__value">13 месяцев</div>
+							</li>
+						</ul>
+						<a href="#" class="button button-first format__button">Получить бизнес-план</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="schedule">
+		<div class="container">
+			<div class="schedule__title title">Поможем открыться за 2 месяца</div>
+			<ul class="schedule__list">
+				<li>
+					<div class="schedule__innertime">
+						<div class="schedule__time"><span>1-2 неделя</span></div>
+					</div>
+					<div class="schedule__text">Подготовка документации и<br> согласование проекта</div>
+				</li>
+				<li>
+					<div class="schedule__innertime">
+						<div class="schedule__time"><span>3-4 неделя</span></div>
+					</div>
+					<div class="schedule__text">Поиск помещения, монтаж<br> оборудования, подбор персонала</div>
+				</li>
+				<li>
+					<div class="schedule__innertime">
+						<div class="schedule__time"><span>5-6 неделя</span></div>
+					</div>
+					<div class="schedule__text">Обучение сотрудников<br> и руководителя</div>
+				</li>
+				<li>
+					<div class="schedule__innertime">
+						<div class="schedule__time"><span>7-8 неделя</span></div>
+					</div>
+					<div class="schedule__text">Прохождение аттестации,<br> проверок во всех инстанциях<br> и старт работы</div>
+				</li>
+			</ul>
+			<a href="#" class="button button-first schedule__button">Получить план открытия</a>
+		</div>
+	</div>
+	<div class="process">
+		<div class="container">
+			<h3 class="process__title title">Полная поддержка каждому партнёру</h3>
+			<ul class="process__list">
+				<li>
+					<div class="process__image">
+						<img src="img/item.jpg" alt="">
+					</div>
+					<div class="process__number">01</div>
+					<div class="process__subtitle">Контролируем открытие</div>
+					<p class="process__paragrapth">Наша команда приезжает к вам в город для запуска бизнеса: помогаем наладить все процессы, проводим торжественное открытие, контролируем работу на старте.</p>
+				</li>
+				<li>
+					<div class="process__image">
+						<img src="img/item.jpg" alt="">
+					</div>
+					<div class="process__number">02</div>
+					<div class="process__subtitle">Формируем команду</div>
+					<p class="process__paragrapth">Помогаем найти руководителя, поваров и кассиров. Проводим собеседования и утверждаем кандидатов на ключевые позиции в вашей франчайзи.</p>
+				</li>
+				<li>
+					<div class="process__image">
+						<img src="img/item.jpg" alt="">
+					</div>
+					<div class="process__number">03</div>
+					<div class="process__subtitle">Организуем поставки</div>
+					<p class="process__paragrapth">Обеспечиваем вашу пиццерию всем необходимым. Напрямую поставляем сырьё для приготовления, брендированную и сопутствующую продукцию.</p>
+				</li>
+				<li>
+					<div class="process__image">
+						<img src="img/item.jpg" alt="">
+					</div>
+					<div class="process__number">04</div>
+					<div class="process__subtitle">Передаём необходимые знания</div>
+					<p class="process__paragrapth">Приглашаем вас и ваш персонал на стажировку в действующую пиццерию на 9 дней. Ещё 9 дней обучаем на вашей точке перед запуском.</p>
+				</li>
+				<li class="process__withouttext">
+					<div class="process__image">
+						<img src="img/item.jpg" alt="">
+					</div>
+					<div class="process__number">05</div>
+				</li>
+				<li class="process__withoutimage">
+					<div class="process__subtitle">Помогаем получать максимум посетителей</div>
+					<p class="process__paragrapth">Подбираем правильную локацию и формат для заведения. Полностью настраиваем рекламу на нашем официальном сайте. Подключаем геолокационные сервисы. Обучаем работе в соцсетях, помогаем наполнять их качественным контентом.</p>
+					<a href="#" class="process__button button button-first">Получить комплект документации 1/3</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="mobile">
+		<div class="container">
+			<div class="mobile__content">
+				<h2 class="mobile__title title">Доступ к мобильному приложению PIZZAWOOD</h2>
+				<ul class="mobile__list">
+					<li>
+						<div class="mobile__subtitle">Без усилий получайте от 30% к выручке</div>
+						<p class="mobile__paragrapth">Больше трети гостей предпочитают заказывать пиццу и другие блюда онлайн.</p>
+						<p class="mobile__paragrapth">Имея привлекательное приложение, вы получаете эту часть клиентов себе.</p>
+					</li>
+					<li>
+						<div class="mobile__subtitle">Опережайте конкурентов за счёт лучшего сервиса</div>
+						<p class="mobile__paragrapth">В мобильном приложении гости могут знакомиться с ингредиентами, способами приготовления, составлять списки любимых блюд, в несколько кликов совершать повторные заказы и др.</p>
+						<p class="mobile__paragrapth">Такой функционал выгодно выделит вас среди большинства пиццерий в городе.</p>
+					</li>
+					<li>
+						<div class="mobile__subtitle">Превращайте покупателей в постоянных клиентов</div>
+						<p class="mobile__paragrapth">Пользователи приложения первыми узнают о скидках, акциях, получают и тратят бонусы за заказы, мы дарим им промокоды и др.</p>
+						<p class="mobile__paragrapth">Благодаря системе лояльности PIZZAWOOD, ваши гости будут возвращаться снова и снова.</p>
+					</li>
+				</ul>
+			</div>
+			<div class="mobile__links">
+				<a href="#" class="mobile__appstore">
+					<img class="mobile__appicon" src="img/app-store.png" alt="">
+				</a>
+				<a href="#" class="mobile__google">
+					<img class="mobile__appicon" src="img/google-play.png" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="get">
+		<div class="container">
+			<ul class="get__tables">
+				<li class="get__plan">Получите план выхода</li>
+				<li class="get__money">на прибыль 500 000  ₽/месяц</li>
+				<li class="get__city">для вашего города</li>
+			</ul>
+			<form action="#" class="plan get__form">
+				<h3 class="plan__title">Оставьте заявку<br> и получите Бизнес-план</h3>
+				<input required type="text" class="plan__input" placeholder="Ваше имя" pattern="^[а-яА-ЯёЁa-zA-Z]+$">
+				<input required type="tel" class="plan__input" placeholder="Ваше телефон" pattern="^[0-9\s\+\-\(\)]{6,24}">
+				<input required type="email" class="plan__input" placeholder="Ваше e-mail">
+				<button class="button button-first plan__button">Получить бизнес-план</button>
+				<p class="plan__text">Нажимая на кнопку «Получить», я даю согласие<br> на обработку персональных данных и соглашаюсь с <a href="#" class="plan__confidence">политикой конфиденциальности</a></p>
+			</form>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__information">
+				<div class="footer__copyright">© «Pizzawood», 2020</div>
+				<a href="#" class="footer__confidence">Политика конфиденциальности</a>
+				<a href="#" class="footer__link">Франчайзинг 5 - упаковка и продвижение франшиз</a>
+			</div>
+			<div class="footer__app">
+				<a href="#" class="footer__appstore">
+					<img class="footer__appicon" src="img/app-store.png" alt="">
+				</a>
+				<a href="#" class="footer__google">
+					<img class="footer__appicon" src="img/google-play.png" alt="">
+				</a>
+				<p class="footer__download">Cкачать приложение PizzaWood</p>
+			</div>
+			<div class="footer__numbers consultation">
+				<a href="callto:88000000000">8 800 000 00 00</a>
+				<p>Бесплатная консультация</p>
+			</div>
+		</div>
+	</footer>
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Montserrat:wght@400;500;600;700&family=PT+Sans&display=swap" rel="stylesheet">
+	<link type='text/css' rel='stylesheet' href='css/style.css'>
+	<script src="https://cdn.jsdelivr.net/npm/autonumeric@4.5.4"></script>
+	<script src='js/script.js'></script>
+</body>
+</html>
